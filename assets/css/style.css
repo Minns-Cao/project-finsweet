@@ -135,9 +135,17 @@ a {
 }
 
 .hero-info .info {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.hero-img .img {
+    margin-left: 32px;
+    width: 622px;
+    height: 683px;
+    object-fit: cover;
 }
 
 
