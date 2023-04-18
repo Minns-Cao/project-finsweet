@@ -5,6 +5,7 @@
 :root {
     --primary-color: #ffb577;
     --background-color: #19161B;
+    --font-heading: Playfair Display, 'serif';
 }
 
 html {
@@ -28,7 +29,13 @@ a {
     text-decoration: none;
 }
 
-.label {
+.btn {
+    border: none;
+    background: #FFB577;
+    padding: 12px 24px;
+}
+
+.label-med {
     margin-right: 8px;
     font-weight: 500;
     font-size: 1.6rem;
@@ -37,7 +44,7 @@ a {
 }
 
 .heading {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-heading);
     font-style: normal;
     color: #FFFFFF;
 }
@@ -65,6 +72,25 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #B8B8B8;
+}
+
+.caption {
+    position: relative;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #FFB577;
+}
+
+.caption::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 48px;
+    border: 0.5px solid #FFFFFF;
+    top: 50%;
+    left: 194px;
 }
 
 /* ================Header=================*/
@@ -124,12 +150,6 @@ a {
     margin-top: 16px;
 }
 
-.hero-info .btn {
-    border: none;
-    background: #FFB577;
-    padding: 12px 24px;
-}
-
 .hero-info .btn  {
     margin-top: 32px;
 }
@@ -148,5 +168,63 @@ a {
     object-fit: cover;
 }
 
+/* ================Know-more=================*/
+ .know-more {
+    padding-top: 160px;
+    background-color: var(--background-color);
+ }
 
+ .know-more .info {
+    width: 49%;
+ }
+
+ .know-more .info .heading {
+    margin-top: 24px;
+ }
+
+ .know-more .info .desc {
+    margin-top: 32px;
+ }
+
+ .know-more .info .item-list {
+    display: flex;
+    gap: 38px;
+    margin-top: 40px;
+ }
+
+ .know-more .info .item {
+    width: 29%;
+ }
+
+ .know-more .info .item .value {
+    display: flex;
+    gap: 7px;
+ }
+
+ .know-more .info .item .value .number {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: #C4E4EA;
+ }
+
+ .know-more .info .btn {
+    margin-top: 32px;
+ }
+
+ .know-more .images {
+    display: flex;
+    gap: 67px;
+    margin-left: 102px;
+ }
+
+ .know-more .images .img {
+    width: 240px;
+    height: 500px;
+    object-fit: cover;
+ }
+
+ .know-more .images .img:first-child {
+    margin-top: 83px;
+ }
 
