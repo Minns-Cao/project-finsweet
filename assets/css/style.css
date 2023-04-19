@@ -531,7 +531,7 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
+    transform: translateX(+10%);
 }
 
 .footer .nav{
@@ -555,6 +555,7 @@ a {
 
 .contact-footer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 56px;
 }
@@ -571,8 +572,7 @@ a {
 .contact-footer .socials-list {
     display: flex;
     gap: 27px;
-    margin-left: 289px;
-    margin-right: 400px;
+    transform: translateX(-50%);
 }
 
 .contact-footer .action {
