@@ -1,0 +1,98 @@
+/* ================Menu=================*/
+
+.menu {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.menu .info-top {
+    display: flex;
+    align-items: start;
+    gap: 268px;
+}
+
+.menu .info-top .heading_details {
+    display: block;
+    width: 35%;
+}
+
+.menu .info-top .desc {
+    display: block;
+    width: 39%;
+    margin-top: 16px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 32px;
+    margin-top: 144px;
+    margin-left: 12px;
+}
+
+.menu ul a {
+    opacity: 0.6;
+}
+
+.menu ul li:hover a {
+    opacity: 1;
+}
+
+.menu .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.menu .item-list .item {
+    width: 31.5%;
+    background: #1f1d21;
+}
+
+.menu .item-list .item .thumb {
+    width: 100%;
+    height: 271px;
+    object-fit: cover;
+}
+
+.menu .item-list .item .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px 18px;
+}
+
+.menu .item-list .item .info .cost {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    opacity: 0.87;
+}
+
+.menu .item-list .item .info .heading {
+    opacity: 0.87;
+}
+
+/* ================Contact=================*/
+.contact {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.contact .body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1d21;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 185px 80px 64px;
+}
+
+.contact .container .heading {
+    margin-bottom: 6px;
+}
