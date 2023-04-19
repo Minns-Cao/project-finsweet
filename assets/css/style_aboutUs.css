@@ -161,3 +161,30 @@
 .text-kmore .column-right {
     width: 43%;
 }
+
+.text-kmore .column-right .desc {
+    margin-top: 24px;
+}
+
+/* ================Contact=================*/
+.contact {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.contact .body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1d21;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 185px 80px 64px;
+}
+
+.contact .container .heading {
+    margin-bottom: 6px;
+}
