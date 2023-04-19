@@ -194,6 +194,7 @@ a {
     height: 0.5px;
     background-color: #FFF;
     bottom: -32px;
+    opacity: 0.7;
 }
 
 .contact-footer {

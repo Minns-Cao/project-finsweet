@@ -1,0 +1,163 @@
+/* ================Know-more=================*/
+.know-more {
+    padding-top: 96px;
+    background-color: var(--background-color);
+}
+
+.know-more .body {
+    display: flex;
+    align-items: center;
+}
+
+.know-more .info {
+    width: 49%;
+}
+
+.know-more .info .heading {
+    margin-top: 24px;
+}
+
+.know-more .info .desc {
+    margin-top: 32px;
+}
+
+.know-more .info .item-list {
+    display: flex;
+    gap: 38px;
+    margin-top: 40px;
+}
+
+.know-more .info .item {
+    width: 29%;
+}
+
+.know-more .info .item .value {
+    display: flex;
+    gap: 7px;
+}
+
+.know-more .info .item .value .number {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: #c4e4ea;
+}
+
+.know-more .images {
+    display: flex;
+    gap: 67px;
+    margin-left: 102px;
+}
+
+.know-more .images .img {
+    width: 240px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.know-more .images .img:first-child {
+    margin-top: 83px;
+}
+
+/* ================Image=================*/
+
+.image-know-more {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.image-know-more .body {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(
+            97.28deg,
+            rgba(25, 22, 27, 0.92) 34.6%,
+            rgba(25, 22, 27, 0) 83.17%
+        ),
+        url("../img/BG-image-knowMore.jpeg");
+    background-size: cover;
+}
+
+.image-know-more .container {
+    width: 431px;
+    padding-top: 124px;
+    margin-left: 80px;
+}
+
+.image-know-more .container strong {
+    color: #ffc492;
+}
+
+/* ================History=================*/
+
+.history {
+    background-color: var(--background-color);
+}
+
+.history .body {
+    padding: 80px;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.history .item-list {
+    position: relative;
+    display: flex;
+    gap: 44px;
+    margin-top: 104px;
+}
+
+.history .item-list::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+    top: -34px;
+    left: 0px;
+}
+
+.history .item {
+    position: relative;
+}
+
+.history .item::before {
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 0px;
+    border: 3px solid #ffb577;
+    top: -37px;
+    left: 0px;
+}
+
+.history .item-list .number {
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 1.38;
+    color: #ffffff;
+}
+
+.history .item-list .heading {
+    margin: 16px 0px;
+}
+
+/* ================Text-Kmore=================*/
+
+.text-kmore {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.text-kmore .body {
+    display: flex;
+    gap: 116px;
+}
+
+.text-kmore .column-left {
+    width: 44%;
+}
+
+.text-kmore .column-right {
+    width: 43%;
+}
