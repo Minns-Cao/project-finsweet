@@ -518,3 +518,71 @@ a {
 .contact .container .heading {
     margin-bottom: 6px;
 }
+
+/* ================Footer=================*/
+
+.footer {
+    background-color: var(--background-color);
+    padding-top: 160px;
+    padding-bottom: 24px;
+}
+
+.footer .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.footer .nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 43px;
+}
+
+.footer .nav::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 97vw;
+    height: 0.5px;
+    background-color: #FFF;
+    bottom: -32px;
+}
+
+.contact-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+
+
+.contact-footer .copyright {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+
+.contact-footer .socials-list {
+    display: flex;
+    gap: 27px;
+    margin-left: 289px;
+    margin-right: 400px;
+}
+
+.contact-footer .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--background-color);
+}
+
+.contact-footer .action .label-med {
+    color: #FFFFFF;
+}
