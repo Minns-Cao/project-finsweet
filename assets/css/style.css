@@ -8,6 +8,11 @@
     --font-heading: Playfair Display, "serif";
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -70,6 +75,12 @@ a {
 .lv4 {
     font-weight: 700;
     font-size: 2rem;
+    line-height: 1.5;
+}
+
+.lv5 {
+    font-weight: 700;
+    font-size: 1.4rem;
     line-height: 1.5;
 }
 
@@ -296,4 +307,76 @@ a {
 .serving .table .item .heading {
     margin-top: 24px;
     margin-bottom: 12px;
+}
+
+/* ================Menu=================*/
+
+.menu {
+    background-color: var(--background-color);
+    padding: 160px 0px 165px;
+}
+
+.menu .info-top {
+    display: flex;
+    align-items: start;
+    gap: 268px;
+}
+
+.menu .info-top .heading_details {
+    display: block;
+    width: 35%;
+}
+
+.menu .info-top .desc {
+    display: block;
+    width: 39%;
+    margin-top: 16px;
+}
+
+.menu .p-menu{
+    margin-top: 20px;
+}
+
+.menu .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 83px;
+}
+
+.menu .item-list .item {
+    width: 31.5%;
+    background: #1F1D21;
+}
+
+.menu .item-list .item .thumb {
+    width: 100%;
+    height: 271px;
+    object-fit: cover;
+}
+
+.menu .item-list .item .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px 18px;
+}
+
+.menu .item-list .item .info .cost {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+
+.menu .item-list .item .info .heading {
+    opacity: 0.87;
+}
+
+.menu .btn {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
