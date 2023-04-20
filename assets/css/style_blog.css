@@ -137,3 +137,107 @@
     margin-top: 16px;
 }
 
+/* ================Articles=================*/
+.articles {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.articles .title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 1.22;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+
+.articles .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    margin-top: 64px;
+}
+
+.articles .item {
+    width: 50%;
+    display: flex;
+}
+
+.articles .item .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 266px;
+    max-height: 266px;
+    padding-top: 54px;
+    padding-left: 41px;
+}
+
+.articles .item .container .avt {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.articles .item .container .name {
+    opacity: 0.87;
+}
+
+.articles .item .container .date {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.articles .item .containerlv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.articles .item .container .heading {
+    max-width: 307px;
+    margin: 24px 0px;
+}
+
+.articles .item .container .action {
+    border: none;
+    background-color: transparent;
+}
+
+.articles .item .container .action .desc {
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+
+/* ================Contact=================*/
+.contact {
+    background-color: var(--background-color);
+    padding-top: 160px;
+}
+
+.contact .body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1d21;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 185px 80px 64px;
+}
+
+.contact .container .heading {
+    margin-bottom: 6px;
+}
