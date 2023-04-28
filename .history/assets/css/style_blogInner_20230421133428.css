@@ -1,0 +1,14 @@
+/* ================BlogInnerPage=================*/
+.blogInnerPage {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.blogInnerPage .info {
+    display: flex;
+    align-items: center;
+}
+
+.blogInnerPage .info .date {
+    
+}

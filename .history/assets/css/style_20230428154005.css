@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffb577;
+    --background-color: #19161b;
+    --font-heading: Playfair Display, "serif";
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ================common=================*/
+.main-content {
+    width: 1280px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    background: #ffb577;
+    padding: 12px 24px;
+}
+
+.label-med {
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #2e2d33;
+}
+
+.label-extransmall {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.33;
+    color: #FFFFFF;
+}
+
+.heading {
+    font-family: var(--font-heading);
+    font-style: normal;
+    color: #ffffff;
+}
+
+.lv1 {
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 1.21;
+}
+
+.lv2 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 1.21;
+}
+
+.lv3 {
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 1.5;
+}
+
+.lv4 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.lv5 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #b8b8b8;
+}
+
+.caption {
+    position: relative;
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #ffb577;
+}
+
+.caption::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 48px;
+    border: 0.5px solid #ffffff;
+    top: 50%;
+    right: calc(-48px - 16px);
+}
+
+/* ================Header=================*/
+.fixed {
+    position: sticky;
+    top: -20px;
+    z-index: 1;
+}
+
+.header {
+    background-color: var(--background-color);
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 28px 0px 8px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+.nav li a {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.header .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    border: none;
+    background-color: var(--background-color);
+}
+
+.header .action .label {
+    margin-right: 12px;
+    color: #ffc492;
+}
+
+.header .nav-mb-btn,
+.header . {
+    display: none;
+}
+
+.nav_overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* ================Footer=================*/
+
+.footer {
+    background-color: var(--background-color);
+    padding-top: 160px;
+    padding-bottom: 24px;
+}
+
+.footer .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(+10%);
+}
+
+.footer .nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 43px;
+}
+
+.footer .nav::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 97vw;
+    height: 0.5px;
+    background-color: #FFF;
+    bottom: -32px;
+    opacity: 0.7;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+
+
+.contact-footer .copyright {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #B8B8B8;
+}
+
+.contact-footer .socials-list {
+    display: flex;
+    gap: 27px;
+    transform: translateX(-50%);
+}
+
+.contact-footer .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: var(--background-color);
+}
+
+.contact-footer .action .label-med {
+    color: #FFFFFF;
+}
+
+
+/* ==================Responsive==================== */
+
+@media (max-width: 768px) {
+    /* Header */
+    .header .nav,
+    .header .action {
+        display: none;
+    }
+
+    .header .nav-mb-btn {
+        display: block;
+        margin-left: auto;
+    }
+
+    .header .nav_overlay {
+        display: block;
+    }
+
+    .nav-mb {
+        position: fixed;
+        background-color: #ed777784;
+        top: 0;
+        right: 0;
+        width: 320px;
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .nav-mb ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-left: 50px;
+    }
+    
+    .nav-mb li a {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+
+    /* ==================Footer================== */
+    .footer .logo {
+        display: none;
+    }
+
+    .footer .nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-50%);
+    }
+
+    .contact-footer {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contact-footer .socials-list {
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0);
+    }
+}

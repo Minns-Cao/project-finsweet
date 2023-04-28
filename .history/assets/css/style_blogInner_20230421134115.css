@@ -1,0 +1,39 @@
+/* ================BlogInnerPage=================*/
+.blogInnerPage {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.blogInnerPage .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.blogInnerPage .info::before {
+    content: "";
+    display: block;
+    width: 648px;
+    border: 0.5px solid rgba(255, 255, 255, 0.05);
+}
+
+.blogInnerPage .info .avt {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.blogInnerPage .info .name {
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+.blogInnerPage .info .date {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+    opacity: 0.6;
+}

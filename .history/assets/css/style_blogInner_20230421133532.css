@@ -1,0 +1,23 @@
+/* ================BlogInnerPage=================*/
+.blogInnerPage {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.blogInnerPage .info {
+    display: flex;
+    align-items: center;
+}
+
+.blogInnerPage .info .name {
+    margin-left: 12px;
+    margin-right: 24px;
+}
+
+.blogInnerPage .info .date {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
