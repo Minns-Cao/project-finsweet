@@ -123,9 +123,8 @@
     }
 
     .contact-us .right-column .images{
-        justify-content: space-around;
+        justify-content: center;
         margin-left: 0;
-        gap: 0px;
     }
 
     .contact-us .left-column .btn {
@@ -138,6 +137,5 @@
     /* ================Moblie-Responsive-Contact=================*/
     .contact-us .right-column .img {
         width: 40%;
-        height: 370px;
     }
 }

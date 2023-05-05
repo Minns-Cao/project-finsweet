@@ -104,40 +104,10 @@
 
 @media (max-width: 768px) {
     /* ================Responsive-Contact=================*/
-    .contact-us .body {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .contact-us .right-column {
-        width: 100%;
-    }
-
-    .contact-us .left-column {
-        width: 100%;
-    }
-
-    .contact-us .left-column .inp-msg,
-    .contact-us .left-column .input-info {
-        width: 100%;
-    }
-
-    .contact-us .right-column .images{
-        justify-content: space-around;
-        margin-left: 0;
-        gap: 0px;
-    }
-
-    .contact-us .left-column .btn {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 }
 
 @media (max-width: 430px) {
     /* ================Moblie-Responsive-Contact=================*/
-    .contact-us .right-column .img {
-        width: 40%;
-        height: 370px;
-    }
+    
 }
