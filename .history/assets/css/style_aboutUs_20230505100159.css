@@ -225,7 +225,7 @@
         color: var(--primary-color);
     }
 
-    /* ================Responsive-History=================*/
+    /* ================Moblie-Responsive-History=================*/
     .history .item-list {
         flex-wrap: wrap;
     }
@@ -273,12 +273,6 @@
     }
 
     .image-know-more .body {
-        height: 370px;
+        height: 350px;
     }
-
-    /* ================Moblie-Responsive-History=================*/
-    .history .body {
-        padding: 50px;
-    }
-
 }

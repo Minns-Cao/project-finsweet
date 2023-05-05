@@ -206,79 +206,13 @@
         margin-top: 40px;
         margin-left: 0px;
     }
-
-    /* ================Responsive-TextKnowMore=================*/
-    .text-kmore .body {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .text-kmore .column-left {
-        width: 100%;
-    }
-
-    .text-kmore .column-right {
-        width: 100%;
-    }
-
-    .text-kmore .column-right .heading {
-        color: var(--primary-color);
-    }
-
-    /* ================Responsive-History=================*/
-    .history .item-list {
-        flex-wrap: wrap;
-    }
-
-    .history .item-list::before {
-        display: none;
-    }
 }
 
 @media (max-width: 430px) {
     /* ================Moblie-Responsive-Contact=================*/
-    .know-more .info .item-list {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .know-more .info .item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .know-more .info .item-list .desc {
-        margin-top: 10px;
-        text-align: center;
-    }
 
     .know-more .images {
-        justify-content: center;
-        gap: 30px;
-    }
-    .know-more .images .img {
+    .know-more .images .img{
         width: 40%;
-        height: 350px;
     }
-
-    /* ================Moblie-Responsive-ImageKnowMore=================*/
-
-    .image-know-more .container {
-        width: 100%;
-        padding: 11px;
-        margin-left: 0;
-    }
-
-    .image-know-more .body {
-        height: 370px;
-    }
-
-    /* ================Moblie-Responsive-History=================*/
-    .history .body {
-        padding: 50px;
-    }
-
 }
