@@ -1,0 +1,15 @@
+.contact-us {
+    background-color: var(--background-color);
+}
+
+.contact-us .body {
+    display: flex;
+}
+
+.contact-us .left-column {
+
+}
+
+.contact-us .right-column {
+    
+}

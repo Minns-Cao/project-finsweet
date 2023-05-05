@@ -1,0 +1,23 @@
+.contact-us {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.contact-us .body {
+    display: flex;
+    
+}
+
+.contact-us .left-column {
+    width: 50%;
+}
+
+.contact-us .right-column {
+    width: 50%;
+}
+
+.contact-us .right-column .img {
+    width: 240px;
+    height: 500px;
+    object-fit: cover;
+}

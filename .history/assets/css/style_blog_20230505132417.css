@@ -275,10 +275,6 @@
         width: 100%;
     }
 
-    .featured .right-column .item-list {
-        margin-left: 0;
-    }
-
     /* ================Responsive-Articles=================*/
     .articles .item-list {
         flex-direction: column;
@@ -296,7 +292,7 @@
         object-fit: cover;
     }
 
-    
+    .featured .right-column .item-list
     
 }
 @media (max-width: 430px) {

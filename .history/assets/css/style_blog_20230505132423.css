@@ -274,10 +274,7 @@
     .featured .right-column {
         width: 100%;
     }
-
-    .featured .right-column .item-list {
-        margin-left: 0;
-    }
+    .featured .right-column .item-list
 
     /* ================Responsive-Articles=================*/
     .articles .item-list {

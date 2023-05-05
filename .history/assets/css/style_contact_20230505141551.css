@@ -1,0 +1,78 @@
+.contact-us {
+    background-color: var(--background-color);
+    padding-top: 96px;
+}
+
+.contact-us .body {
+    display: flex;
+    
+}
+
+.contact-us .left-column {
+    width: 50%;
+}
+
+.contact-us .right-column {
+    width: 50%;
+}
+
+.contact-us .right-column .images {
+    display: flex;
+    gap: 64px;
+    margin-left: 90px;
+}
+
+.contact-us .right-column .img {
+    width: 240px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact-us .right-column .img:nth-child(1){
+    margin-top: 83px;
+}
+
+.contact-us .left-column .paragraph {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.contact-us .left-column input {
+    background-color: var(--background-color);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 14px 0px 14px 32px;
+}
+
+.contact-us .left-column .input-info {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .left-column .input-info .inp-email,
+.contact-us .left-column .input-info .inp-name {
+    width: 47%;
+}
+
+.contact-us .left-column .inp-msg {
+    width: 90%;
+    padding-bottom: 105px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.contact-us .left-column .btn {
+    display: flex;
+    align-items: center;
+    background-color: #27252D;
+    padding: 20px 32px;
+}
+
+.contact-us .left-column .btn:hover {
+    opacity: ;
+}
+
+.contact-us .left-column .btn .label-med {
+    color: #ffffff;
+    opacity: 0.87;
+}
