@@ -482,14 +482,10 @@
     /* ================Responsive-Blog=================*/
 
     .blog .item-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 50px;
+        f
     }
 
     .blog .item-list .item {
         width: 80%;
     }
-
-    
 }

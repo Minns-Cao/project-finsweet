@@ -483,13 +483,10 @@
 
     .blog .item-list {
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 50px;
+        j
     }
 
     .blog .item-list .item {
         width: 80%;
     }
-
-    
 }

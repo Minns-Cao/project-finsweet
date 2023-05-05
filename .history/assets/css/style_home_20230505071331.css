@@ -491,5 +491,14 @@
         width: 80%;
     }
 
-    
+    /* ================Responsive-Contact=================*/
+
+    .contact .body {
+        flex-direction: column;
+    }
+
+    .contact .body .img-map {
+        width: 100%;
+        object-fit: cover;
+    }
 }

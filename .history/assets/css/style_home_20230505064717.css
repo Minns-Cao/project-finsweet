@@ -421,75 +421,65 @@
     }
 
     /* ============Responsive-Serving=============== */
-
-    .serving .details {
-        flex-direction: column;
+    .serving {
+        background-color: var(--background-color);
+        padding-top: 160px;
     }
-
-    .serving .details .heading {
-        width: 100%;
-    }
-
-    .serving .details .desc {
-        width: 100%;
-    }
-
-    /* ================Responsive-Menu=================*/
-
-    .menu .info-top {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .menu .info-top .heading_details {
-        width: 100%;
-    }
-    .menu .info-top .desc {
-        width: 100%;
-    }
-
-    .menu .item-list {
-        justify-content: center;
-    }
-
-    .menu .item-list .item .info {
-        flex-direction: column;
-    }
-
-    /* ================Responsive-Quote=================*/
-
-    .quote .body {
-        flex-direction: column;
-    }
-
-    .quote .details {
-        width: 100%;
+    
+    .serving .body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding: 80px 78px 84px 78px;
+        align-items: start;
+        gap: 24px;
     }
-
-    .quote .details .icon {
-        width: 35px;
-        height: 35px;
-    }
-
-    .quote .images {
-        width: 100%;
-    }
-
-    /* ================Responsive-Blog=================*/
-
-    .blog .item-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 50px;
-    }
-
-    .blog .item-list .item {
-        width: 80%;
-    }
-
     
+    .serving .details {
+        display: flex;
+        align-items: center;
+        gap: 58px;
+    }
+    
+    .serving .details .heading {
+        display: block;
+        width: 52%;
+    }
+    
+    .serving .details .desc {
+        display: block;
+        width: 48%;
+    }
+    
+    .serving .table {
+        display: flex;
+        flex-wrap: wrap;
+        background: rgba(0, 0, 0, 0.16);
+        margin-top: 65px;
+    }
+    
+    .serving .table .item {
+        width: 33.3%;
+        padding: 64px;
+    }
+    
+    .serving .table .item:nth-child(2),
+    .serving .table .item:nth-child(5) {
+        border-left: 0.5px solid rgba(255, 255, 255, 0.06);
+        border-right: 0.5px solid rgba(255, 255, 255, 0.06);
+    }
+    
+    .serving .table .item .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: rgba(255, 181, 119, 0.07);
+    }
+    
+    .serving .table .item .heading {
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
 }
+

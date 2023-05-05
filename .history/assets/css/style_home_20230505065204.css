@@ -436,60 +436,79 @@
 
     /* ================Responsive-Menu=================*/
 
+    /* .menu {
+        background-color: var(--background-color);
+        padding: 160px 0px 165px;
+    }
+
     .menu .info-top {
-        flex-direction: column;
-        gap: 40px;
+        display: flex;
+        align-items: start;
+        gap: 268px;
     }
 
     .menu .info-top .heading_details {
-        width: 100%;
+        display: block;
+        width: 35%;
     }
+
     .menu .info-top .desc {
-        width: 100%;
+        display: block;
+        width: 39%;
+        margin-top: 16px;
+    }
+
+    .menu .p-menu {
+        margin-top: 20px;
     }
 
     .menu .item-list {
-        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 83px;
+    }
+
+    .menu .item-list .item {
+        width: 31.5%;
+        background: #1f1d21;
+    }
+
+    .menu .item-list .item .thumb {
+        width: 100%;
+        height: 271px;
+        object-fit: cover;
     }
 
     .menu .item-list .item .info {
-        flex-direction: column;
-    }
-
-    /* ================Responsive-Quote=================*/
-
-    .quote .body {
-        flex-direction: column;
-    }
-
-    .quote .details {
-        width: 100%;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 32px 18px;
+    }
+
+    .menu .item-list .item .info .cost {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.6;
+        color: #ffffff;
+        opacity: 0.87;
+    }
+
+    .menu .item-list .item .info .heading {
+        opacity: 0.87;
+    }
+
+    .menu .btn {
+        display: block;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .menu .info-top {
         flex-direction: column;
-        justify-content: center;
-        padding: 80px 78px 84px 78px;
+        gap: ;
     }
-
-    .quote .details .icon {
-        width: 35px;
-        height: 35px;
-    }
-
-    .quote .images {
-        width: 100%;
-    }
-
-    /* ================Responsive-Blog=================*/
-
-    .blog .item-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 50px;
-    }
-
-    .blog .item-list .item {
-        width: 80%;
-    }
-
-    
 }
+

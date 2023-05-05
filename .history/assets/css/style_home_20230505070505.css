@@ -478,18 +478,4 @@
     .quote .images {
         width: 100%;
     }
-
-    /* ================Responsive-Blog=================*/
-
-    .blog .item-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 50px;
-    }
-
-    .blog .item-list .item {
-        width: 80%;
-    }
-
-    
 }
