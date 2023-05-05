@@ -90,16 +90,13 @@
     }
 
     .story .left-column .container {
-        justify-content: space-around;
-        gap: 0px;
+        justify-content: center;
     }
     
 }
 @media (max-width: 430px) {
     /* ================Moblie-Responsive-Contact=================*/
-
     .story .left-column .container .img {
-        width: 40%;
-        height: 350px;
+        
     }
 }

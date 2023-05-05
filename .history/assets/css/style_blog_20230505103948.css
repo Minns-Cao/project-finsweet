@@ -278,7 +278,6 @@
     /* ================Responsive-Articles=================*/
     .articles .item-list {
         flex-direction: column;
-        align-items: center;
     }
 
     .articles .item {
@@ -286,10 +285,7 @@
     }
 
     .articles .item .thumb {
-        width: 50%;
-        min-width: 50%;
-        height: 250px;
-        object-fit: cover;
+        w50%
     }
     
 }
@@ -308,25 +304,4 @@
     }
 
     /* ================Moblie-Responsive-Articles=================*/
-
-    .articles .item {
-        display: flex;
-        flex-direction: column;
-    } 
-
-    .articles .item .thumb {
-        width: 100%;
-        height: 250px;
-        
-    }
-
-    .articles .item .container {
-        padding: 0;
-        padding-top: 20px;
-        
-    }
-
-    .articles .item .container .heading {
-        margin: 10px 0;
-    }
 }

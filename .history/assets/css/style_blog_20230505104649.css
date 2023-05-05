@@ -287,7 +287,6 @@
 
     .articles .item .thumb {
         width: 50%;
-        min-width: 50%;
         height: 250px;
         object-fit: cover;
     }

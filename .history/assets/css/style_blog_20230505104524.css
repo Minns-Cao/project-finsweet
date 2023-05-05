@@ -287,7 +287,6 @@
 
     .articles .item .thumb {
         width: 50%;
-        min-width: 50%;
         height: 250px;
         object-fit: cover;
     }
@@ -323,10 +322,7 @@
     .articles .item .container {
         padding: 0;
         padding-top: 20px;
-        
-    }
-
-    .articles .item .container .heading {
-        margin: 10px 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
