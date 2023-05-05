@@ -351,12 +351,16 @@ a {
         width: 100%;
         object-fit: cover;
     }
+
+    .contact .container {
+        padding: px;
+    }
 }
 
 @media (max-width: 430px) {
     /* ================Moblie-Responsive-Contact=================*/
     .contact .container {
-        padding: 20px !important;
+        padding: 20px;
     }
 }
 

@@ -490,6 +490,8 @@
     .blog .item-list .item {
         width: 80%;
     }
+
+    
 }
 
 @media (max-width: 430px) {
@@ -547,5 +549,8 @@
         padding: 20px;
     }
 
-    
+    /* ================Moblie-Responsive-Contact=================*/
+    .contact .container {
+        padding: 20px;
+    }
 }

@@ -354,10 +354,7 @@ a {
 }
 
 @media (max-width: 430px) {
-    /* ================Moblie-Responsive-Contact=================*/
-    .contact .container {
-        padding: 20px !important;
-    }
+    
 }
 
 @keyframes fadeIn {

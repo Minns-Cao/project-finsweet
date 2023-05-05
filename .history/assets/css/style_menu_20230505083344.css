@@ -125,12 +125,8 @@
         margin-top: 40px;
     }
 
-    .menu .item-list .item {
-        width: 45%;
-    }
-
     .menu .item-list .item .info {
-        flex-direction: column;
+        
     }
 }
 
@@ -143,9 +139,5 @@
 
     .menu ul a {
         font-size: 1.3rem;
-    }
-
-    .menu .item-list .item {
-        width: 100%;
     }
 }

@@ -122,30 +122,14 @@
     .menu .item-list {
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
-    }
-
-    .menu .item-list .item {
-        width: 45%;
-    }
-
-    .menu .item-list .item .info {
-        flex-direction: column;
     }
 }
 
 @media (max-width: 430px) {
     /* ================Mobile-Responsive-Menu=================*/
     .menu ul {
-        margin-top: 40px;
-        gap: 10px;
-    }
-
-    .menu ul a {
-        font-size: 1.3rem;
-    }
-
-    .menu .item-list .item {
-        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+        margin-left: 0;
     }
 }

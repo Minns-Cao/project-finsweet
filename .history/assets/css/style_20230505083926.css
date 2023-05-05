@@ -356,7 +356,7 @@ a {
 @media (max-width: 430px) {
     /* ================Moblie-Responsive-Contact=================*/
     .contact .container {
-        padding: 20px !important;
+        padding: 20px;
     }
 }
 
