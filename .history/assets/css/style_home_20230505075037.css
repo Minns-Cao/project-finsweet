@@ -539,16 +539,13 @@
         }
 
         .blog .item-list .item {
-            width: 100%;
+            w100
         }
 
         .blog .item .container {
             padding: 20px;
         }
 
-        /* ================Moblie-Responsive-Contact=================*/
-        .contact .container {
-            padding: 20px;
-        }
+
     }
 }

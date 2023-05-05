@@ -492,63 +492,6 @@
     }
 
     @media (max-width: 430px) {
-        /* ================Moblie-Responsive-KnowMore=================*/
-        .know-more .info .item-list {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 60px;
-        }
-
-        .know-more .info .item {
-            width: 80%;
-            gap: 6px;
-        }
-
-        .know-more .images .img {
-            width: 35%;
-            height: 300px;
-        }
-
-        /* ================Moblie-Responsive-Serving=================*/
-        .serving .table .item {
-            width: 100%;
-        }
-
-        .serving .table .item:nth-child(2),
-        .serving .table .item:nth-child(5) {
-            border: unset;
-        }
-
-        /* ================Moblie-Responsive-Menu=================*/
-        .menu .item-list .item {
-            width: 100%;
-        }
-
-        /* ================Moblie-Responsive-Quote=================*/
-        .quote .details {
-            padding: 15px;
-        }
-
-        .quote .details .text {
-            margin-top: 0;
-            font-size: 2rem;
-        }
-
-        .quote .details .info {
-            margin-top: 30px;
-        }
-
-        .blog .item-list .item {
-            width: 100%;
-        }
-
-        .blog .item .container {
-            padding: 20px;
-        }
-
-        /* ================Moblie-Responsive-Contact=================*/
-        .contact .container {
-            padding: 20px;
-        }
+        /* ================-Responsive-Blog=================*/
     }
 }

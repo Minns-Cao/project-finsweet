@@ -548,7 +548,7 @@
 
         /* ================Moblie-Responsive-Contact=================*/
         .contact .container {
-            padding: 20px;
+            padding: 0;
         }
     }
 }

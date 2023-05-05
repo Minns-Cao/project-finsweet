@@ -526,29 +526,7 @@
 
         /* ================Moblie-Responsive-Quote=================*/
         .quote .details {
-            padding: 15px;
-        }
-
-        .quote .details .text {
-            margin-top: 0;
-            font-size: 2rem;
-        }
-
-        .quote .details .info {
-            margin-top: 30px;
-        }
-
-        .blog .item-list .item {
-            width: 100%;
-        }
-
-        .blog .item .container {
-            padding: 20px;
-        }
-
-        /* ================Moblie-Responsive-Contact=================*/
-        .contact .container {
-            padding: 20px;
+            padding
         }
     }
 }
